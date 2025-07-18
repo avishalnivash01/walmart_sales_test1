@@ -62,9 +62,9 @@ This project is an end-to-end data analysis solution designed to extract critica
      - Profit margin analysis by branch and category.
    - **Documentation**: Keep clear notes of each query's objective, approach, and results.
 
-     '''sq
-     WITH revenue_2022 AS (
-       SELECT 
+ '''sq
+       WITH revenue_2022 AS (
+    SELECT 
         branch,
         SUM(total) AS revenue
     FROM walmart
